@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "smena_checks"
+version = "0.1.0"
+description = ""
+authors = ["ssyucfa <patin123321@bk.ru>"]
+
+[tool.poetry.dependencies]
+python = "3.10"
+Django = "^4.0.4"
+djangorestframework = "^3.13.1"
+psycopg2-binary = "^2.9.3"
+django-redis = "^5.2.0"
+celery = "^5.2.6"
+requests = "^2.27.1"
+Jinja2 = "^3.1.2"
+pdfkit = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
